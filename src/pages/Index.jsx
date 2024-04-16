@@ -30,7 +30,28 @@ const Index = () => {
           </VStack>
         </Box>
 
-        {/* Image Section */}
+        {}
+        <Box p={8} shadow="md" borderWidth="1px" borderRadius="lg">
+          <VStack spacing={5}>
+            <Heading as="h2" size="lg">
+              Dendrite Features
+            </Heading>
+            <Text fontSize="md" color="gray.500">
+              We allow AI agents to interact with the internet efficiently.
+            </Text>
+            <Text fontSize="md" color="gray.500">
+              Set up and maintain complex web scraping scripts. <a href="#">Read more.</a>
+            </Text>
+            <Text fontSize="md" color="gray.500">
+              Allow agents to interact with websites, e.g., log in. <a href="#">Read more.</a>
+            </Text>
+            <Text fontSize="md" color="gray.500">
+              Create, configure, and reuse safe 'Automations'. <a href="#">Read more.</a>
+            </Text>
+          </VStack>
+        </Box>
+
+        {}
         <Image src="https://images.unsplash.com/photo-1507146153580-69a1fe6d8aa1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxBSSUyMHRlY2hub2xvZ3l8ZW58MHx8fHwxNzEzMjg5OTY3fDA&ixlib=rb-4.0.3&q=80&w=1080" borderRadius="lg" alt="AI Technology" />
       </VStack>
     </Container>
