@@ -5,7 +5,7 @@ import { FaRobot } from "react-icons/fa";
 
 const Index = () => {
   return (
-    <Container maxW="container.xl">
+    <Container maxW="container.md">
       <VStack spacing={10}>
         {/* Header Section */}
         <Box textAlign="center" py={10}>
